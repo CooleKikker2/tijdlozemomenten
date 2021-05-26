@@ -5,7 +5,12 @@
 
 @font-face {
   font-family: 'Hanson';
-  src: url("../font/Hanson-Bold.otf") format("opentype");
+  src: url("../font/hanson.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'HansonLight';
+  src: url("../font/hansonlight.ttf") format("truetype");
 }
 
 body{
@@ -30,8 +35,17 @@ body{
       top: 50%;
       left: 50%;
       margin-left: -50%;
-      font-family: Hanson;
+      font-family: HansonLight;
       margin-top: -50px;
+      p{
+        font-size: 10px;
+        margin-top: 15px;
+        font-family: HansonLight;
+        &:hover{
+
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
