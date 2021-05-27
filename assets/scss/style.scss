@@ -10,7 +10,8 @@
 
 @font-face {
   font-family: 'HansonLight';
-  src: url("../font/hansonlight.ttf") format("truetype");
+  src: url("https://use.typekit.net/mdn4bzp.css") format("truetype");
+  font-weight: bold;
 }
 
 body{
@@ -35,14 +36,14 @@ body{
       top: 50%;
       left: 50%;
       margin-left: -50%;
-      font-family: HansonLight;
+      font-family: Hanson;
       margin-top: -50px;
       p{
-        font-size: 10px;
+        font-size: 18px;
         margin-top: 15px;
         font-family: HansonLight;
         &:hover{
-
+          cursor: pointer;
           text-decoration: underline;
         }
       }
