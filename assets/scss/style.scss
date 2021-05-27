@@ -24,8 +24,8 @@ body{
     height: 100vh;
     text-align: center;
     opacity: 0;
-    // animation: fadeLoad 2s forwards;
-    transition: width 2s;
+    animation: fadeLoad 2s forwards;
+
     .st_hdr_lg{
       margin-top: 15px;
       width: 30%;
