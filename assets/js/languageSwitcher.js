@@ -11,11 +11,13 @@ if(sessionStorage.getItem("language")){
 var arrLang = {
     "eng" : {
         'toggle': "Nederlands",
-        "home": 'Welcome at Tijdloze momenten, \nThe picture-project!',
+        "titleText": 'Welcome at Tijdloze momenten, \nThe picture-project!',
+        "audioTest": "Use audio for a better experience"
     },
     "nl": {
         'toggle': "English",
-        "home": `Welkom bij Tijdloze momenten, \n H\u00E9t fotoproject! `
+        "titleText": `Welkom bij Tijdloze momenten, \n H\u00E9t fotoproject!`,
+        "audioTest": "Gebruik audio voor een betere ervaring"
     }
 }
 changeWebsite();
