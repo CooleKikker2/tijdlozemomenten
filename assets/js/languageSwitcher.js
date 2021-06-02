@@ -48,7 +48,6 @@ function changeWebsite(){
         //change all texts
         $(this).text(arrLang[lang][$(this).attr('key')]);
         
-        console.log(lang);
        sessionStorage.setItem("language", lang); 
         
     });
